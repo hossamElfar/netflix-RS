@@ -1,0 +1,143 @@
+Dataset 1 shape: (24058263, 2)
+-Dataset examples-
+          Cust_Id  Rating
+0              1:     NaN
+5000000   2560324     4.0
+10000000  2271935     2.0
+15000000  1921803     2.0
+20000000  1933327     3.0
+Full dataset shape: (24058263, 2)
+-Dataset examples-
+          Cust_Id  Rating
+0              1:     NaN
+5000000   2560324     4.0
+10000000  2271935     2.0
+15000000  1921803     2.0
+20000000  1933327     3.0
+Movie numpy: [  1.00000000e+00   1.00000000e+00   1.00000000e+00 ...,   4.49900000e+03
+   4.49900000e+03   4.49900000e+03]
+Length: 24053764
+-Dataset examples-
+          Cust_Id  Rating  Movie_Id
+1         1488844     3.0         1
+5000996    501954     2.0       996
+10001962   404654     5.0      1962
+15002876   886608     2.0      2876
+20003825  1193835     2.0      3825
+Movie minimum times of review: 3884.0
+Customer minimum times of review: 79.0
+Original Shape: (24053764, 3)
+After Trim Shape: (13528427, 3)
+-Data Examples-
+          Cust_Id  Rating  Movie_Id
+5109       785314     1.0         8
+8889698    332300     3.0      1770
+17751978   629874     4.0      3391
+(95325, 900)
+            Year                          Name
+Movie_Id
+1         2003.0               Dinosaur Planet
+2         2004.0    Isle of Man TT 2004 Review
+3         1997.0                     Character
+4         1994.0  Paula Abdul's Get Up & Dance
+5         2004.0      The Rise and Fall of ECW
+6         1997.0                          Sick
+7         1992.0                         8 Man
+8         2004.0    What the #$*! Do We Know!?
+9         1991.0      Class of Nuke 'Em High 2
+10        2001.0                       Fighter
+
+Evaluating RMSE, MAE of algorithm SVD.
+
+------------
+Fold 1
+RMSE: 0.9820
+MAE:  0.7946
+------------
+Fold 2
+RMSE: 0.9861
+MAE:  0.7921
+------------
+Fold 3
+RMSE: 0.9855
+MAE:  0.7934
+------------
+------------
+Mean RMSE: 0.9845
+Mean MAE : 0.7934
+------------
+------------
+Movie_Id
+8                  What the #$*! Do We Know!?
+30                     Something's Gotta Give
+83                                   Silkwood
+175                            Reservoir Dogs
+257                           Charlotte's Web
+283                 If These Walls Could Talk
+285                           The Devil's Own
+313                            Pay It Forward
+357                     House of Sand and Fog
+457                         Kill Bill: Vol. 2
+468                   The Matrix: Revolutions
+501                  Three Days of the Condor
+550                              First Knight
+689                            One True Thing
+798                                      Jaws
+963                  A Streetcar Named Desire
+989                     The Door in the Floor
+1066                      Superman: The Movie
+1144                     Fried Green Tomatoes
+1148                       For Your Eyes Only
+1180                         A Beautiful Mind
+1220                              Man on Fire
+1307                                 S.W.A.T.
+1359                               Funny Lady
+1482                           Beyond Borders
+1650                             Nine to Five
+1795                           MASH: Season 7
+1798                            Lethal Weapon
+1865    Eternal Sunshine of the Spotless Mind
+1901             Cheech & Chong's Up in Smoke
+                        ...
+3153                           Doctor Zhivago
+3216                 Children of a Lesser God
+3254                                Daredevil
+3282                                 Sideways
+3290                            The Godfather
+3320                              About a Boy
+3342                    The Day of the Jackal
+3371                              Whale Rider
+3535                              9 1/2 Weeks
+3538                                  Beaches
+3541             History of the World: Part 1
+3605    The Wizard of Oz: Collector's Edition
+3624                         The Last Samurai
+3638                              Bad Boys II
+3730                                Elizabeth
+3798                                The Sting
+3825                     The Sum of All Fears
+3905                               The Others
+3917                             Garden State
+3925                     The Matrix: Reloaded
+3962                Finding Nemo (Widescreen)
+4157                      The Prince of Tides
+4266                The Passion of the Christ
+4302               An Officer and a Gentleman
+4306                          The Sixth Sense
+4330                  While You Were Sleeping
+4353           Curb Your Enthusiasm: Season 3
+4427                  The West Wing: Season 3
+4432                          The Italian Job
+4479                          Ordinary People
+
+        Year                          Name  Estimate_Score
+1475  2004.0      Six Feet Under: Season 4        5.000000
+3455  2004.0                Lost: Season 1        5.000000
+1356  2003.0       Stargate SG-1: Season 7        5.000000
+4265  2004.0     The Passion of the Christ        5.000000
+344   1998.0  Star Trek: Voyager: Season 5        4.999547
+3152  1965.0                Doctor Zhivago        4.995635
+4426  2001.0       The West Wing: Season 3        4.993020
+137   1995.0  Star Trek: Voyager: Season 1        4.980317
+2565  1999.0       Stargate SG-1: Season 3        4.934427
+1691  1989.0                 Lonesome Dove        4.933271
